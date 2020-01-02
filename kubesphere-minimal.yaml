@@ -11,7 +11,7 @@ data:
     ---
 
     persistence:
-      storageClass: ""
+      storageClass: "kube-sphere"
 
     etcd:
       monitoring: False
