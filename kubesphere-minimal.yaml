@@ -56,7 +56,7 @@ data:
       enabled: False
 
     devops:
-      enabled: True
+      enabled: False
       jenkinsMemoryLim: 2Gi
       jenkinsMemoryReq: 1500Mi
       jenkinsVolumeSize: 8Gi
@@ -64,7 +64,7 @@ data:
       jenkinsJavaOpts_Xmx: 512m
       jenkinsJavaOpts_MaxRAM: 2g
       sonarqube:
-        enabled: True
+        enabled: False
 
     servicemesh:
       enabled: False
